@@ -4,7 +4,13 @@ arr1[1] = "Morty"
 arr1[2] = "robot chicken"
 arr1[3] = "Sealab"
 arr1[4] = 2021
-console.log(arr1);
+arr1[4] = 2022
+arr1.push("ATHF")
+for(let i = 0; i <= arr1.length; i++){
+    console.log(i);
+    console.log(arr1[i]);
+}
+// console.log(arr1);
 
 const arr2 = []
 
